@@ -156,5 +156,4 @@ ____
 [Ссылка на МК](https://mind42.com/mindmap/032dcfd4-f2c5-49a1-a2c9-22973e9d4c36).
 
 ## Коллекции Postman
-Ссылка на коллекцию с автотестами - https://www.getpostman.com/collections/611ffa1a6e9e9a5c35dd
-Также коллекция прикреплена файлом, вместе с окружением.
+Ссылка на коллекцию с автотестами - [https://www.getpostman.com/collections/611ffa1a6e9e9a5c35dd](https://dummyapi.io/data/v1/)
