@@ -23,6 +23,23 @@ ____
   limit: number(number of items on page)
 }
 ```
+
+#### GET//user/:id/post (Get List By User)
+Возвращает список публикаций конкретного юзера.
+- доступен query params для вывода определённой страницы
+- 
+**Response Body**
+
+**List**
+```js
+{
+  data: Array(Model)
+  total: number(total items in DB)
+  page: number(current page)
+  limit: number(number of items on page)
+}
+```
+
 ____
 ## Майнд-карта
 Данная МК представляет собой набор тестов для тестирования объекта **POST**. 
