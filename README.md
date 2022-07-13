@@ -140,7 +140,7 @@ ____
 }
 ```
 ____
-#### Delete /post/:id (Delete Post)
+### Delete /post/:id (Delete Post)
 Удаляет публикацию по указанному айди, возвращает айди удалённой публикации.
 
 **Response Body**
