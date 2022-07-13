@@ -23,7 +23,7 @@ ____
   limit: number(number of items on page)
 }
 ```
-
+____
 #### GET /user/:id/post (Get List By User)
 Возвращает список публикаций конкретного юзера.
 - доступен query params для вывода определённой страницы
@@ -39,7 +39,7 @@ ____
   limit: number(number of items on page)
 }
 ```
-
+____
 #### GET /tag/:id/post (Get List By Tag)
 Возвращает список публикаций с указанным тэгом.
 - доступен query params для вывода определённой страницы
@@ -55,7 +55,7 @@ ____
   limit: number(number of items on page)
 }
 ```
-
+____
 #### GET /post/:id (Get Post by id)
 Вовзращает публикацию по указанному айди. 
 
@@ -74,7 +74,7 @@ ____
   owner: object(User Preview)
 }
 ```
-
+____
 #### POST /post/create (Create Post)
 Создаёт новую публикацию и возвращает информацию по ней.
 
@@ -107,7 +107,7 @@ ____
   owner: object(User Preview)
 }
 ```
-
+____
 ### PUT /post/:id (Update Post)
 Обновляет информацию о публикации по айди, возвращает обновлённую информацию о публикации.
 
@@ -139,7 +139,7 @@ ____
   owner: object(User Preview)
 }
 ```
-
+____
 #### Delete /post/:id (Delete Post)
 Удаляет публикацию по указанному айди, возвращает айди удалённой публикации.
 
